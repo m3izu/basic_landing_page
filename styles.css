@@ -32,6 +32,7 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     padding: 20px 100px;
+    padding-bottom: 80px;
 }
 
 .c1l {
@@ -55,4 +56,53 @@ body {
 
 }
 
+.imog {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
 
+.b1 {
+    background-color: #3882F6;
+    width: 25%;
+    padding: 8px;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    border: 0;
+}
+
+.content2 {
+    display: flex;
+    padding: 20px 100px;
+    flex-direction: column;
+}
+
+.c2h {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2illu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r1, .r2, .r3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#c2img {
+    border-width: 10px;
+    border: #3882F6;
+    max-width: 150px;
+    border-style: solid;
+    border-radius: 8px;
+}
